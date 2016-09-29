@@ -25,3 +25,4 @@ function jump2Thumb(iThumb) {
     }, 400);
   }
 }
+</script>
