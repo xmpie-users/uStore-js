@@ -7,7 +7,7 @@ $("document").ready(function() {
     $("input").keyup(function() {
       wait(
         function(){
-          if ($("#ctl00_cphMainContent_ucDialCustomization_btnUpdateThumbnails").length() > 0) {
+          if ($("#ctl00_cphMainContent_ucDialCustomization_btnUpdateThumbnails").length > 0) {
             document.location.href = $("#ctl00_cphMainContent_ucDialCustomization_btnUpdateThumbnails").attr("href"); 
           }
         },
@@ -17,7 +17,7 @@ $("document").ready(function() {
     $(".Duc[dialid] [tabindex]").change(function() {
       wait(
         function(){
-          if ($("#ctl00_cphMainContent_ucDialCustomization_btnUpdateThumbnails").length() > 0) {
+          if ($("#ctl00_cphMainContent_ucDialCustomization_btnUpdateThumbnails").length > 0) {
             document.location.href = $("#ctl00_cphMainContent_ucDialCustomization_btnUpdateThumbnails").attr("href"); 
           }
         },
