@@ -1,0 +1,17 @@
+With the below code we can hide individual color buttons of RTE. Suppose if we want to hide black color button, then the code be like this.
+
+
+<script type="text/javascript">
+var myVar1;
+window.setTimeout(function(){
+myVar1=$("#ctl00_cphMainContent_ucDialCustomization_Duc250831_uEditRTF_IFrame").contents().find(".btn");
+myVar1[3].style.display="none";
+
+}, 1000);
+</script>
+
+Aboue i created myVar1 variable. this variable is holding the contents of colors that RTE contains. Color numbers starts from 3.
+for Black color array value is 3
+for White color array value is 4
+for Aqua color array value is 5 and so on.. 
+like this we can count and hide desired color buttons.
