@@ -14,7 +14,9 @@ $(document).ready(function() {
   
     // update if text input quantity changes
     $("#ctl00_cphMainContent_txtNumCopies").on('input', function() {
-      autoRecalculate(); 
+      //If you use it without a setTimeout() than you could not enter more than one number. The setTimeout() will cause a wait for 1,5 sec after the first number was entered. This way you can enter more numbers and have only after it a autorefresh of the price. 
+      //autoRecalculate(); 
+      setTimeout(autoRecalculate , 1500)
     });
     
     //update if drop-down list product properties change
