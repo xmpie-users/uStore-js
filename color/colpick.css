@@ -186,17 +186,17 @@ colpick Color Picker / colpick.com
 	left: 207px;
 }
 .colpick .colpick_cmyk_m {
-	top: 67px;
+	top: 66px;
 	left: 207px;
 }
 .colpick .colpick_cmyk_y {
-	top: 94px;
+	top: 92px;
 	left: 207px;
 }
 .colpick .colpick_cmyk_k {
 	//width: 68px;
 	left: 207px;
-	top: 121px;
+	top: 117px;
 }
 /*Text field container on focus*/
 .colpick .colpick_focus {
@@ -219,11 +219,11 @@ colpick Color Picker / colpick.com
 	position: absolute;
 	right: 11px;
 	margin: 0;
-	padding: 0;
+	padding: 0 !important;
 	height: 20px;
 	line-height: 20px;
 	background: transparent;
-	border: none;
+	border: none !important;
 	font-size: 12px;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #555;
@@ -264,7 +264,7 @@ colpick Color Picker / colpick.com
 .colpick .colpick_submit {
 	position: absolute;
 	left: 207px;
-	top: 149px;
+	top: 144px;
 	width: 130px;
 	height: 22px;
 	line-height:22px;
