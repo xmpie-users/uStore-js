@@ -8,9 +8,9 @@ $(document).ready(function() {
         
         $('#ctl00_cphMainContent_btnRegister').click(function (event) {
             var user_email=$('#ctl00_cphMainContent_ucUserRegistration_txtEmail').val();
-            var emailReg = /^([a-zA-Z0-9\._-])*@vancity.com$/; //CHANGE THE REQUIRED EMAIL DOMAIN
+            var emailReg = /^([a-zA-Z0-9\._-])*@anz.com$/; //CHANGE THE REQUIRED EMAIL DOMAIN
             if(!emailReg.test(user_email)) {
-                alert('Please enter a valid Vancity email'); //CHANGE THE NECESSARY COMPANY NAME
+                alert('Please enter a valid anz email'); //CHANGE THE NECESSARY COMPANY NAME
             } else {
                 WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$cphMainContent$btnRegister", "", true, "RegisterValidation", "", false, true))
             }
