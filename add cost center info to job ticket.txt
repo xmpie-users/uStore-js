@@ -1,0 +1,41 @@
+# Adding cost center info to job ticket
+
+## uStore admin
+
+* Go to Presets -> system Setup -> Message Template SQL
+* In the Message Template Id field type "27" (job ticket id) 
+* Then click the filter icon
+* Then click "Equal To" option
+* In the Name column find "Order"
+* Click the pencil icon on the left hand side of the line
+* Expand the window so all the SQL Text is visible
+* Directly after "Select" type the text below, make sure there is a space between that and the existing entries.
+
+               o.ClearingResult, 
+
+* Click "Save"
+* Click "Back to List"
+* Click "Message Template"
+* In the Message Template Id field type "27" (job ticket id)
+* Click the pencil icon on the left hand side of the line
+* Click "Edit Localized Text"
+* Click the pencil icon on the left hand side of the page
+* Expand the "Message Body" window 
+* Click in the text box
+* Use Ctrl+f to access the find function
+* Type "ClearingName" in the search box
+
+ The code will look like this
+
+                <xsl:value-of select="//ClearingName"/></td>
+* Paste the below code between ><
+
+      <xsl:value-of select="//Sqls/Order/Row/ClearingResult"/>
+
+The result should look like this:
+
+     <xsl:value-of select="//ClearingName"/><xsl:value-of select="//Sqls/Order/Row/ClearingResult"/></td>
+
+* Click "Save"
+
+You can now look at any job ticket that has a clearing and will see whatever value the customer input at the end of the payment section.
