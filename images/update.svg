@@ -1,6 +1,0 @@
-<svg height="60" width="500">
-<rect height="60" width="500" style="fill:rgb(225,90,70);stroke-width:0;stroke:rgb(0,0,0)" />
-  <text x="10" y="25" fill="white">NOTE: The date picker used in this sample is not maintained anymore. </text>
-<text x="10" y="45" fill="white">An updated solution is available if you click here.</text>
-  Sorry, your browser does not support inline SVG.
-</svg>
