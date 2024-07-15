@@ -1,0 +1,90 @@
+// Dials
+{
+  "cssVariableName": "--breadcrumb-toggle",
+  "defaultValue": "1px",
+  "control": {
+    "type": "number-picker",
+    "section": "Breadcrumb",
+    "options": {
+      "unit": "px",
+      "min": 0,
+      "max": 1
+    },
+    "displayTexts": [
+      {
+        "key": "Title",
+        "value": "Breadcrumb Toggle"
+      },
+      {
+        "key": "Description",
+        "value": "Show or hide the breadcrumb. 1px is on, 0px is off."
+      }
+    ]
+  }
+},
+{
+  "cssVariableName": "--breadcrumb-text-color",
+  "defaultValue": "#000000",
+  "control": {
+    "type": "color-picker",
+    "section": "Breadcrumb",
+    "displayTexts": [
+      {
+        "key": "Title",
+        "value": "Breadcrumb color"
+      }
+    ]
+  }
+},
+{
+  "cssVariableName": "--breadcrumb-text-color-hover",
+  "defaultValue": "#555555",
+  "control": {
+    "type": "color-picker",
+    "section": "Breadcrumb",
+    "displayTexts": [
+      {
+        "key": "Title",
+        "value": "Breadcrumb hover color"
+      }
+    ]
+  }
+},
+{
+  "cssVariableName": "--breadcrumb-separator",
+  "defaultValue": ">",
+  "control": {
+    "type": "text-input",
+    "section": "Breadcrumb",
+    "displayTexts": [
+      {
+        "key": "Title",
+        "value": "Separator"
+      },
+      {
+        "key": "Description",
+        "value": "This will overwrite the default value. Keep blank to use the default value."
+      }
+    ]
+  }
+},
+{
+  "cssVariableName": "--breadcrumb-separator-color",
+  "defaultValue": "#000000",
+  "control": {
+    "type": "color-picker",
+    "section": "Breadcrumb",
+    "displayTexts": [
+      {
+        "key": "Title",
+        "value": "Breadcrumb separator color"
+      }
+    ]
+  }
+},
+
+// Section
+{
+  "name": "Breadcrumb",
+  "displayName": "Breadcrumb"
+},
