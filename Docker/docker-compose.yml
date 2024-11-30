@@ -1,0 +1,19 @@
+version: '3.8'
+services: 
+  uStoreTheme: 
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports: 
+      - 5000:5000
+    volumes: 
+      - ./:/app:delegated
+      - /app/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    command: 
+      - npm
+      - run
+      - start
+      - --
+      - server={YOUR_SERVER_IP_OR_DOMAIN}
