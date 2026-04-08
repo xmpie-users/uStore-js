@@ -1,0 +1,38 @@
+{
+  "Owned": {
+    "Vinyl": {
+      "Fleetwood Mac": ["Rumours", "Tango in the Night", "Mirage"],
+      "David Bowie": ["Heroes", "Ziggy Stardust", "Let's Dance"],
+      "Pink Floyd": ["The Dark Side of the Moon", "Wish You Were Here"]
+    },
+    "CDs": {
+      "Pop": {
+        "Taylor Swift": ["1989", "Fearless", "Midnights"],
+        "Dua Lipa": ["Future Nostalgia", "Radical Optimism"]
+      },
+      "Rock": {
+        "The Beatles": ["Abbey Road", "Revolver", "Let It Be"],
+        "Led Zeppelin": ["Led Zeppelin IV", "Physical Graffiti"]
+      }
+    },
+    "Digital Downloads": ["Random Access Memories", "After Hours", "Happier Than Ever"]
+  },
+  "Wishlist": {
+    "Jazz": {
+      "Miles Davis": ["Kind of Blue", "Bitches Brew"],
+      "John Coltrane": ["A Love Supreme", "Giant Steps"]
+    },
+    "Classical": {
+      "Beethoven": ["Symphony No. 9", "Moonlight Sonata"],
+      "Mozart": ["Requiem", "The Magic Flute"]
+    },
+    "Soundtracks": ["Interstellar OST", "Inception OST", "Dune OST"]
+  },
+  "Streaming Only": {
+    "Hip-Hop": {
+      "Kendrick Lamar": ["To Pimp a Butterfly", "DAMN.", "Mr. Morale & the Big Steppers"],
+      "J. Cole": ["2014 Forest Hills Drive", "KOD"]
+    },
+    "Indie": ["Punisher", "Sometimes I Sit and Think...", "Good Thing"]
+  }
+}
